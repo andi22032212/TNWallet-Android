@@ -6,7 +6,10 @@ apply plugin: 'realm-android'
 android {
     signingConfigs {
         config {
-            keyAlias 'WavesWallet'
+            storeFile file('C:\\Users\\bramV\\Desktop\\TNWallet.jks')
+            storePassword 'wallet'
+            keyAlias 'TNWallet'
+            keyPassword 'wallet'
         }
     }
     compileSdkVersion 25
@@ -16,13 +19,13 @@ android {
         javaMaxHeapSize "3g"
     }
     defaultConfig {
-        applicationId "com.wavesplatform.wallet"
+        applicationId "com.tn.wallet"
         targetSdkVersion 25
         versionCode 335
         versionName "1.1.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
-        archivesBaseName = "waves-wallet-$versionName"
+        archivesBaseName = "TN-wallet-$versionName"
         // URLs for Staging, Dev and TestNet Support
         buildConfigField "String", "DEV_BASE_SERVER", devBaseServer
         buildConfigField "String", "STAGING_BASE_SERVER", stagingBaseServer

@@ -134,7 +134,7 @@ dependencies {
     compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
     compile "com.squareup.retrofit2:converter-jackson:$retrofitVersion"
     compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    compile "com.squareup.retrofit2:adapter-rxjava2:2.3.0-SNAPSHOT"
+    compile "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
 
     compile "org.whispersystems:curve25519-java:0.3.0"
     compile 'com.bignerdranch.android:recyclerview-multiselect:0.2'

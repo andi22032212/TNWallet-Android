@@ -6,10 +6,10 @@ apply plugin: 'realm-android'
 android {
     signingConfigs {
         config {
-            storeFile file('C:\\Users\\bramV\\Desktop\\TNWallet.jks')
+            /*storeFile file('C:\\Users\\bramV\\Desktop\\TNWallet.jks')
             storePassword 'wallet'
             keyAlias 'TNWallet'
-            keyPassword 'wallet'
+            keyPassword 'wallet'*/
         }
     }
     compileSdkVersion 25
@@ -56,7 +56,7 @@ android {
         prod {
             // For release and testing on <API21 devices
             minSdkVersion 14
-            signingConfig signingConfigs.config
+            //signingConfig signingConfigs.config
         }
         dev {
             // For everyday work, setting minSdkVersion to 21 bypasses MultiDex, resulting in

@@ -6,10 +6,10 @@ apply plugin: 'realm-android'
 android {
     signingConfigs {
         config {
-            storeFile file('C:\\Users\\bramV\\Desktop\\TNWallet.jks')
-            storePassword 'wallet'
-            keyAlias 'TNWallet'
-            keyPassword 'wallet'
+            storeFile file('C:\\Users\\bramV\\Documents\\Applciation_TN.jks')
+            storePassword 'pinkylove123456'
+            keyAlias 'TN-KEY'
+            keyPassword 'pinkylove123456'
         }
     }
     compileSdkVersion 26
@@ -21,7 +21,7 @@ android {
     defaultConfig {
         applicationId "com.tn.wallet"
         targetSdkVersion 26
-        versionCode 380
+        versionCode 400
         versionName "1.1.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true

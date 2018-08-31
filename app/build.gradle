@@ -21,8 +21,8 @@ android {
     defaultConfig {
         applicationId "com.tn.wallet"
         targetSdkVersion 26
-        versionCode 400
-        versionName "1.1.5"
+        versionCode 415
+        versionName "1.1.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         archivesBaseName = "TN-wallet-$versionName"
